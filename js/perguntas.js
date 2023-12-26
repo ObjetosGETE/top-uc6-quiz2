@@ -135,12 +135,12 @@ var perguntas = [
             },
             {
                 botao: "b",
-                validacao: true,
+                validacao: false,
                 texto: "Melhorar a visão distorcida."
             },
             {
                 botao: "c",
-                validacao: false,
+                validacao: true,
                 texto: "Ter um excesso de descentração."
             },
         
