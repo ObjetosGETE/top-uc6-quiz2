@@ -13,226 +13,197 @@ var estruturageral = {
 }
 var perguntas = [
     {
-        titulo: "1. Técnica de lapidação",
-        pergunta: "Qual é o propósito principal da técnica de lapidação na montagem de óculos semiaro?",
+        titulo: "1. Lentes esféricas centradas",
+        pergunta: "Qual é a principal correção visual proporcionada por lentes esféricas centradas?",
         respostas: [
             {
                 botao: "a",
                 validacao: false,
-                texto: "Ajustar as hastes para ficarem firmes no rosto do usuário."
+                texto: "Astigmatismo e miopia."
             },
             {
                 botao: "b",
                 validacao: true,
-                texto: "Recortar as lentes no formato da armação escolhida."
+                texto: "Miopia e hipermetropia."
             },
             {
                 botao: "c",
                 validacao: false,
-                texto: "Alinhar a armação para que não fique frouxa no rosto do usuário."
+                texto: "Hipermetropia e presbiopia."
             },
-            {
-                botao: "d",
-                validacao: false,
-                texto: "Preencher a ficha técnica com os dados de fabricação e montagem."
-            },
+          
         ],
         feedbacks: {
             
-            positivo: "Excelente! A lapidação é crucial para dar o acabamento final às lentes.", 
-            negativo: "A resposta não está correta. Lembre-se de que a lapidação faz parte da montagem dos óculos."
+            positivo: "Muito bem! Lentes esféricas são usadas para correção de ametropias esféricas.", 
+            negativo: "A resposta não está correta, pois lentes esféricas são usadas apenas para correção de ametropias esféricas."
             
         }
     },
     {
-        titulo: "2. Técnica de marcação (lensometria)",
-        pergunta: "O que a lensometria afere durante a técnica de marcação em óculos sem aro?",
+        titulo: "2. Lentes esféricas descentradas",
+        pergunta: "O que as lentes esféricas descentradas buscam otimizar?",
         respostas: [
             {
                 botao: "a",
                 validacao: true,
-                texto: "Potência das lentes e marcação do centro óptico."
+                texto: "Posicionamento ideal do centro óptico das lentes."
             },
             {
                 botao: "b",
                 validacao: false,
-                texto: "Cor da armação e seu tamanho de ponte e caixa."
+                texto: "Posicionamento ideal da visão periférica."
             },
             {
                 botao: "c",
                 validacao: false,
-                texto: "Peso das lentes e índice de refração."
+                texto: "Posicionamento ideal na armação de acetato."
             },
-            {
-                botao: "d",
-                validacao: false,
-                texto: "Tamanho da armação, tamanho de ponte, horizontal e maior diagonal."
-            },
+         
         ],
         feedbacks: {
             
-            positivo: "Muito bem! A lensometria é utilizada para medir a potência das lentes e marcação do centro óptico.", 
+            positivo: "Isso mesmo! O objetivo é coincidir o centro óptico das lentes com as medidas oculares do usuário.", 
             negativo: "A resposta não está correta. Reveja as opções e tente novamente."
             
         }
     },
     {
-        titulo: "3. Técnica de alinhamento da armação",
-        pergunta: "Por que é crucial realizar o alinhamento preciso da armação na montagem de óculos?",
+        titulo: "3. Lentes cilíndricas centradas e descentradas",
+        pergunta: "Para qual condição oftálmica as lentes cilíndricas centradas e descentradas são essenciais?",
         respostas: [
             {
                 botao: "a",
                 validacao: false,
-                texto: "Para melhorar a estética."
+                texto: "Catarata"
             },
             {
                 botao: "b",
                 validacao: true,
-                texto: "Para garantir um encaixe confortável."
+                texto: "Astigmatismo"
             },
             {
                 botao: "c",
                 validacao: false,
-                texto: "Para facilitar a limpeza."
+                texto: "Presbiopia"
             },
-            {
-                botao: "d",
-                validacao: false,
-                texto: "Para reduzir o peso das lentes."
-            },
+            
         ],
         feedbacks: {
             
-            positivo: "Correto! O alinhamento preciso é crucial para assegurar um encaixe confortável.", 
-            negativo: "Esta não é a resposta correta. O alinhamento não está relacionado à estética ou à redução do peso das lentes."
+            positivo: "Está correto! Lentes cilíndricas em geral são essenciais na correção do astigmatismo.", 
+            negativo: "Esta não é a resposta correta. Lentes cilíndricas não corrigem patologias ou ametropias esféricas."
             
         }
     },
     {
-        titulo: "4. Técnica para a utilização de gabaritos ópticos",
-        pergunta: "Qual é a principal função dos gabaritos ópticos na montagem de óculos?",
+        titulo: "4. Lentes cilíndricas centradas e descentradas",
+        pergunta: "Qual particularidade ambas as lentes terão em comum na realização dos processos de montagem?",
         respostas: [
             {
                 botao: "a",
                 validacao: false,
-                texto: "Ajustar a luz ambiente."
+                texto: "A forma geométrica das lentes."
             },
             {
                 botao: "b",
                 validacao: true,
-                texto: "Posicionar corretamente as lentes na armação."
+                texto: "O posicionamento do eixo do astigmatismo."
             },
             {
                 botao: "c",
                 validacao: false,
-                texto: "Verificar a potência das lentes."
+                texto: "A espessura de todas as bordas."
             },
-            {
-                botao: "d",
-                validacao: false,
-                texto: "Polir as bordas das lentes."
-            },
+            
         ],
         feedbacks: {
             
-            positivo: "Está correto! Os gabaritos ópticos são utilizados para posicionar corretamente as lentes.", 
-            negativo: "Infelizmente esta não é a resposta correta. Os gabaritos ópticos não ajustam a luz ambiente nem verificam a potência das lentes."
+            positivo: "Está correto! Independentemente de as lentes cilíndricas serem centradas ou descentradas, o posicionamento do eixo do astigmatismo deve ser preservado.", 
+            negativo: "A resposta não está correta. Lentes cilíndricas têm diferença visível de bordas, além de a descentração causar um aumento dessa diferença."
             
         }
     },
     {
-        titulo: "5. Técnica de montagem manual",
-        pergunta: "O que inclui a técnica de montagem manual na confecção do modelo?",
+        titulo: "5. Lentes prismáticas",
+        pergunta: "Qual é a principal característica de uma lente prismática?",
         respostas: [
             {
                 botao: "a",
                 validacao: false,
-                texto: "A utilização de máquinas automatizadas, como um gerador de curvas."
+                texto: "Corrigir o astigmatismo."
             },
             {
                 botao: "b",
                 validacao: true,
-                texto: "As marcações como DNP, altura e linha de montagem."
+                texto: "Melhorar a visão distorcida."
             },
             {
                 botao: "c",
                 validacao: false,
-                texto: "O uso exclusivo de gabaritos ópticos."
+                texto: "Ter um excesso de descentração."
             },
-            {
-                botao: "d",
-                validacao: false,
-                texto: "A aplicação de revestimento nas lentes."
-            },
+        
         ],
         feedbacks: {
             
-            positivo: "Muito bem! A montagem manual inclui marcações essenciais para uma correta confecção.", 
-            negativo: "A resposta não está correta. A montagem manual não envolve apenas máquinas automatizadas."
+            positivo: "Correto! As lentes prismáticas são caracterizadas pelo excesso de descentração.", 
+            negativo: "A resposta não está correta. As lentes prismáticas não têm como característica principal a correção do astigmatismo e da visão distorcida."
             
         }
     },
     {
-        titulo: "6. Técnicas de montagem automática",
-        pergunta: "Qual é uma vantagem das técnicas de montagem automática em comparação com a montagem manual?",
+        titulo: "6. Lentes bifocais",
+        pergunta: "O que caracteriza as lentes bifocais?",
         respostas: [
             {
                 botao: "a",
                 validacao: false,
-                texto: "Menor precisão"
+                texto: "Transição gradual de poder de correção."
             },
             {
                 botao: "b",
                 validacao: false,
-                texto: "Maior custo."
+                texto: "Correção apenas para miopia."
             },
             {
                 botao: "c",
                 validacao: true,
-                texto: "Eficiência e rapidez."
+                texto: "Correção de duas distâncias focais."
             },
-            {
-                botao: "d",
-                validacao: false,
-                texto: "Menos opções de personalização."
-            },
+          
         ],
         feedbacks: {
             
-            positivo: "Correto! A montagem automática é conhecida por sua eficiência e rapidez.", 
-            negativo: "Esta não é a resposta correta. A montagem automática não resulta em menor precisão nem maior personalização."
+            positivo: "Muito bem! As lentes bifocais corrigem as distâncias de longe e perto simultaneamente.", 
+            negativo: "Esta não é a resposta correta! As lentes bifocais não corrigem apenas uma ametropia e contam com um salto de imagem."
             
         }
     },
     {
-        titulo: "7. Técnica de alinhamento para entrega dos óculos",
-        pergunta: "O que um profissional realiza durante a técnica de alinhamento para a entrega dos óculos?",
+        titulo: "7. Lentes multifocais",
+        pergunta: "Como as lentes multifocais diferem das bifocais?",
         respostas: [
             {
                 botao: "a",
                 validacao: true,
-                texto: "Ajusta cuidadosamente a posição das lentes na armação."
+                texto: "Proporcionam correção para várias distâncias focais com alternância gradual progressiva."
             },
             {
                 botao: "b",
                 validacao: false,
-                texto: "Troca as lentes por novas."
+                texto: "Oferecem apenas correção para visão de longe e de perto com salto de imagem, dependendo do desenho."
             },
             {
                 botao: "c",
                 validacao: false,
-                texto: "Realiza a lapidação final."
-            },
-            {
-                botao: "d",
-                validacao: false,
-                texto: "Verifica a potência das lentes."
+                texto: "Não contêm transição gradual progressiva e película com grau de perto visível, disponível em vários desenhos."
             },
         ],
         feedbacks: {
             
-            positivo: "Está correto! O alinhamento final é crucial para uma entrega precisa dos óculos.", 
-            negativo: "Esta resposta não está correta. O alinhamento final não envolve a troca das lentes ou a lapidação final."
+            positivo: "Correto! Lentes multifocais atendem a várias distâncias focais de forma progressiva.", 
+            negativo: "Infelizmente a resposta está incorreta! As lentes multifocais não contêm película visível nem salto de imagem."
             
         }
     }

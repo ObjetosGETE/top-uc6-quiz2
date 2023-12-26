@@ -23,7 +23,7 @@ $(function (){
         
     });
 
-    $(".bto-nav").click(function (){
+    $(".bto-nav-acao").click(function (){
         $("#navegacao").hide();  
         if(pergunta_atual <= nro_perguntas){
             $(".top-slide").eq(pergunta_atual-2).fadeOut("fast", function(){
